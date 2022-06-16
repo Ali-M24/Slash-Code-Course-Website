@@ -1,6 +1,6 @@
 import React from "react";
-import Logo from "../assets/images/logo.png";
-import "../styles/Header.css";
+import Logo from '../../assets/images/logo.png'
+import "./Header.css";
 import { BsFillSunFill } from "react-icons/bs";
 import { FaShoppingCart } from "react-icons/fa";
 import { BiLogIn } from "react-icons/bi";
@@ -12,16 +12,16 @@ function Header() {
         <div className="header-left-item-div">
           <img className="header-logo" src={Logo} alt="Logo-icon" />
           <div className="header-links">
-            <a href="#" className="header-link">
+            <a href="/" className="header-link">
               Home
             </a>
-            <a href="#" className="header-link">
+            <a href="/Courses" className="header-link">
               Courses
             </a>
-            <a href="#" className="header-link">
+            <a href="/Blog" className="header-link">
               Blog
             </a>
-            <a href="#" className="header-link">
+            <a href="/AboutUs" className="header-link">
               About Us
             </a>
           </div>
@@ -32,7 +32,7 @@ function Header() {
             className="shop-basket-item"
             style={{ fontSize: "30px" }}
           />
-          <a href="#" className="header-link">
+          <a href="Login" className="header-link">
             <BiLogIn style={{ fontSize: "30px" }} />
           </a>
         </div>
