@@ -6,7 +6,7 @@ const Footer = () => {
     <body>
       <footer class="footer">
         <div class="footer__addr">
-          <h1 class="footer__logo">Ali Dev Learning Website</h1>
+          <h1 class="footer__logo">Slash Code</h1>
 
           <h2>Contact</h2>
 
